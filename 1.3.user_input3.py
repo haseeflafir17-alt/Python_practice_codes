@@ -1,0 +1,11 @@
+print("Madlibs game")
+adj1 = input("Enter a adjective to describe a park: ")
+noun1 = input(f"Enter a noun(animal) which should be in {adj1} park: ")
+adj2 = input(f"Enter a adjective to describe {noun1}: ")
+v1 = input(f"Enter a verb (-ing) action of {noun1}: ")
+adj3 = input(f"Enter a adjective to describe about expression of you:  ")
+
+print(f"Today I went to {adj1} park")
+print(f"In an exhibit, I saw a {noun1}")
+print(f"{noun1} was {adj2} and {v1}")
+print(f"I was {adj3}")
