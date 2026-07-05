@@ -1,0 +1,12 @@
+name = input("Enter the name: ")
+r1 =name.find("t")
+r2 = name.lower()
+r3 = name.capitalize()
+r4 = name.replace("e", "/")
+r5 = name.count("/")
+
+print(r1)
+print(r2)
+print(r3)
+print(r4)
+print(r5)
